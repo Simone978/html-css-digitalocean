@@ -98,6 +98,15 @@ li{
   background-color: #004AFF;
 }
 
+.btn_account {
+  background-color: #579AFF;
+  color: white;
+}
+.btn_google {
+  background-color: white;
+  box-shadow: 2px 2px 4px lightgrey;
+}
+
 
 /* Utility */
 
@@ -185,6 +194,15 @@ li{
 .container_form{
   margin:0 20px;
 }
+.container_form input::placeholder{
+  font-weight: bold;
+}
+
+.btn_form {
+  width: 100%;
+  margin: 10px 0
+}
+
 
 /* main */
 
