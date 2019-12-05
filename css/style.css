@@ -28,6 +28,13 @@ li{
 .background_container_lightblue{
   background-color: #F3F5F9;
 }
+.background_container_bluemarine{
+  background-color: #003BB8;
+}
+
+.white{
+  color: white;
+}
 
 
 /* Formatting */
@@ -104,4 +111,16 @@ li{
   height: 10px;
   border: 1px solid black;
   border-radius: 50%;
+}
+
+/* service */
+.service_row {
+  border-bottom: 1px solid grey;
+}
+.service_row span{
+  display: inline-block;
+  margin-left: 80px;
+}
+.service_row a{
+  margin-left: 220px;
 }
