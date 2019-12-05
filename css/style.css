@@ -63,6 +63,9 @@ li{
 .margin_bottom30 {
   margin-bottom: 30px;
 }
+.margin_top10{
+  margin-top: 10px;
+}
 
 .left {
   float: left;
@@ -102,9 +105,20 @@ li{
   background-color: #579AFF;
   color: white;
 }
+.btn_account:hover {
+  background-color: #1633FF;
+  color: white;
+}
 .btn_google {
   background-color: white;
   box-shadow: 2px 2px 4px lightgrey;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
 }
 
 
@@ -185,7 +199,6 @@ li{
 }
 
 .header_form {
-  width: 500px;
   height: 400px;
   background-color: white;
   border-radius: 5px;
@@ -201,6 +214,17 @@ li{
 .btn_form {
   width: 100%;
   margin: 10px 0
+}
+.btn_google span {
+  left: 0;
+  color: blue;
+}
+
+.container_form a.policy{
+  text-decoration: underline;
+}
+.container_form a.policy:hover{
+  color: #337ab7;
 }
 
 
