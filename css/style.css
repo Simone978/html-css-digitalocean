@@ -11,6 +11,13 @@
 
 /* Typo */
 
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
 
 
 /* colors */
@@ -69,4 +76,16 @@
 .container_bottom_header{
   margin-top: 80px;
   background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+}
+
+/* main */
+
+/* section logos */
+
+.container_logos{
+  background-color: #F3F5F9;
+}
+
+.stripe_logo{
+  height: 80px;
 }
