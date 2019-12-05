@@ -1,0 +1,69 @@
+
+
+
+/* General */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Typo */
+
+
+
+/* colors */
+
+
+
+/* Formatting */
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+.inline_block {
+  display: inline-block;
+}
+
+
+
+
+/* Utility */
+
+
+/* top header */
+
+.container_top_header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: grey;
+  z-index: 1;
+}
+.nav_menu {
+  width: 70%;
+  height: 80px;
+  margin: 0 auto;
+  background-color: green;
+}
+.nav_menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo_menu,
+.menu_center,
+.menu_right {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+}
+.menu_center{
+  margin-left: 200px;
+}
