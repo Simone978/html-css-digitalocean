@@ -124,3 +124,17 @@ li{
 .service_row a{
   margin-left: 220px;
 }
+
+/* rockerbox */
+
+.rockerbox_box {
+  width: 280px;
+  height: 200px;
+  background-color: white;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.img_rockerbox {
+  width: 150px;
+}
