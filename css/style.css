@@ -24,10 +24,20 @@ li{
   list-style: none;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 
 /* colors */
-.dark_blue {
+.deepblue {
   color: #031C4E;
+}
+.bluemarine {
+  color: #003BB8;
+}
+.light {
+  color :#006AFF;
 }
 .background_container_lightblue{
   background-color: #F3F5F9;
@@ -67,6 +77,11 @@ li{
 
 .menu_chevron {
   font-size: 0.8em;
+}
+
+.padding_upbottom{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 /* buttons */
@@ -150,6 +165,25 @@ li{
 .container_bottom_header{
   margin-top: 60px;
   background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+}
+
+.main_title {
+  font-size: 4.5em;
+}
+.main_subtitle {
+  color: #B0C5FF;
+  font-size: 2em;
+}
+
+.header_form {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.container_form{
+  margin:0 20px;
 }
 
 /* main */
