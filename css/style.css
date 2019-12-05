@@ -31,6 +31,9 @@ li{
 .background_container_bluemarine{
   background-color: #003BB8;
 }
+.background_container_deepblue {
+  background-color: #031C4E;
+}
 
 .white{
   color: white;
@@ -138,3 +141,6 @@ li{
 .img_rockerbox {
   width: 150px;
 }
+
+
+/* top footer */
