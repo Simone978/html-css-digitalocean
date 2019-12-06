@@ -74,6 +74,9 @@ li{
 .margin_bottomtop15{
   margin: 15px 0;
 }
+.margin_bottom10 {
+  margin-bottom: 10px;
+}
 .margin_bottom30 {
   margin-bottom: 30px;
 }
@@ -426,4 +429,27 @@ h4.logos_title {
   color: #2485FD;
   background-color: rgb(255, 255, 255,0.7);
 
+}
+
+/* bottom footer */
+
+.footer_credits p{
+  line-height: 10px;
+}
+.footer_social i{
+  font-size: 2em;
+  color: #8F98AD;
+}
+.footer_social i:hover{
+  color: white;
+}
+.footer_link li{
+  line-height: 2;
+}
+.footer_link a{
+  color: #A4ACBC;
+}
+.footer_link a:hover{
+  color: white;
+  text-decoration: none;
 }
