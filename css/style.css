@@ -415,3 +415,15 @@ h4.logos_title {
 
 
 /* top footer */
+
+.button_footer {
+  font-size: 1.5em;
+  color: #2485FD;
+  background-color: rgb(255, 255, 255,1);
+  padding: 10px 20px;
+}
+.button_footer:hover {
+  color: #2485FD;
+  background-color: rgb(255, 255, 255,0.7);
+
+}
