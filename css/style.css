@@ -101,6 +101,15 @@ li{
   padding-bottom: 40px;
 }
 
+.padding_upbottom60{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.padding_upbottom80{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .title_h2 {
   font-size: 2.5em;
 }
@@ -342,6 +351,8 @@ h4.logos_title {
 
 .service_row {
   border-bottom: 1px solid grey;
+  height: 40px;
+  line-height: 40px;
 }
 .service_row:after {
   content: "";
@@ -349,12 +360,21 @@ h4.logos_title {
   clear: both;
 }
 
+.service_row p{
+  color: white;
+  font-weight: bold;
+}
 .service_row span{
   display: inline-block;
   margin-left: 80px;
+  color: #86A1DB;
 }
 .service_row a{
   float: right;
+  color: #00d7d2;
+}
+.service_row a:hover{
+  color: #0069ff;
 }
 
 /* rockerbox */
