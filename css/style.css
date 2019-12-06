@@ -87,6 +87,18 @@ li{
   padding-bottom: 40px;
 }
 
+.title_h2 {
+  font-size: 2.5em;
+}
+
+.paragraph_subtitle {
+  color: #C6CBD6;
+  font-size: 1.4em;
+}
+.paragraph_color {
+  color: #8F98AD;
+}
+
 /* buttons */
 
 .button_menu {
@@ -223,6 +235,11 @@ li{
   color: blue;
 }
 
+.img_google{
+  left: 3px;
+  width: 20px;
+}
+
 .container_form a.policy {
   text-decoration: underline;
 }
@@ -264,7 +281,18 @@ h4.logos_title {
   .stripe_logo{
     max-width: 90%;
     height: auto;
+  }
 }
+
+
+/* Deploy and scale */
+
+.deploy_column_right {
+  border-left: 2px solid #8F98AD;
+  padding-left: 10px;
+}
+
+
 
 /* section Design for developers */
 
