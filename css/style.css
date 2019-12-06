@@ -16,9 +16,10 @@ body{
 
 /* Typo */
 
-a{
+a, a:hover{
   text-decoration: none;
 }
+
 
 li{
   list-style: none;
@@ -94,6 +95,13 @@ li{
   float: right;
 }
 
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+
 .inline_block {
   display: inline-block;
 }
@@ -152,13 +160,6 @@ li{
 }
 .btn_google:hover {
   background-color: #D5E4F7;
-}
-
-.relative {
-  position: relative;
-}
-.absolute {
-  position: absolute;
 }
 
 
