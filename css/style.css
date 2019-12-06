@@ -53,6 +53,14 @@ li{
   color: white;
 }
 
+.paragraph_subtitle {
+  color: #C6CBD6;
+  font-size: 1.4em;
+}
+.paragraph_color {
+  color: #8F98AD;
+}
+
 
 /* Formatting */
 
@@ -60,6 +68,9 @@ li{
   width: 100%;
 }
 
+.margin_bottomtop15{
+  margin: 15px 0;
+}
 .margin_bottom30 {
   margin-bottom: 30px;
 }
@@ -89,14 +100,6 @@ li{
 
 .title_h2 {
   font-size: 2.5em;
-}
-
-.paragraph_subtitle {
-  color: #C6CBD6;
-  font-size: 1.4em;
-}
-.paragraph_color {
-  color: #8F98AD;
 }
 
 /* buttons */
