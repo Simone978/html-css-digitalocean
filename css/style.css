@@ -48,6 +48,9 @@ li{
 .background_container_deepblue {
   background-color: #031C4E;
 }
+.background_white {
+  background-color: white;
+}
 
 .white{
   color: white;
@@ -380,16 +383,35 @@ h4.logos_title {
 /* rockerbox */
 
 .rockerbox_box {
-  width: 280px;
-  height: 200px;
+  max-width: 100%;
+  height: auto;
   background-color: white;
   margin: auto;
+  padding: 80px 0;
+  text-align: center;
+}
+.rockerbox_box p{
+  font-size: 1.5em;
+  color: #697691;
   padding: 20px 0;
 }
-
-.img_rockerbox {
-  width: 150px;
+.rockerbox_box h5{
+  margin: 4px;
 }
+.rockerbox_box a{
+  text-decoration: none;
+  color: #0069ff;
+}
+.rockerbox_box a:hover{
+  color: #005fe6;
+}
+.rockerbox_link{
+  margin-top: 30px;
+}
+.img_rockerbox {
+  margin: auto;
+}
+
 
 
 /* top footer */
