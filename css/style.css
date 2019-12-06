@@ -113,6 +113,9 @@ li{
   background-color: white;
   box-shadow: 2px 2px 4px lightgrey;
 }
+.btn_google:hover {
+  background-color: #D5E4F7;
+}
 
 .relative {
   position: relative;
@@ -166,7 +169,7 @@ li{
   margin: 15px 0;
 }
 
-@media screen and (min-width: 1050px){
+@media screen and (min-width: 1150px){
   .visible_lg {
     display: block;
   }
@@ -175,7 +178,7 @@ li{
   }
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1155px){
   .visible_lg {
     display: none;
   }
@@ -216,15 +219,26 @@ li{
   margin: 10px 0
 }
 .btn_google span {
-  left: 0;
+  left: 1%;
   color: blue;
 }
 
-.container_form a.policy{
+.container_form a.policy {
   text-decoration: underline;
 }
-.container_form a.policy:hover{
+.container_form a.policy:hover {
   color: #337ab7;
+}
+
+@media screen and (max-width: 750px) {
+
+  .main_title {
+    font-size: 2.5em;
+  }
+  .main_subtitle {
+    color: #B0C5FF;
+    font-size: 1.5em;
+  }
 }
 
 
@@ -232,8 +246,24 @@ li{
 
 /* section logos */
 
+.row_logos{
+  line-height: 130px;
+}
 .stripe_logo{
-  height: 80px;
+  max-width: 100%;
+  height: auto;
+}
+
+h4.logos_title {
+  font-size: 1.2em;
+  color: #727E99;
+}
+
+@media screen and (max-width: 750px) {
+
+  .stripe_logo{
+    max-width: 90%;
+    height: auto;
 }
 
 /* section Design for developers */
@@ -247,15 +277,22 @@ li{
 }
 
 /* service */
+
 .service_row {
   border-bottom: 1px solid grey;
 }
+.service_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .service_row span{
   display: inline-block;
   margin-left: 80px;
 }
 .service_row a{
-  margin-left: 220px;
+  float: right;
 }
 
 /* rockerbox */
