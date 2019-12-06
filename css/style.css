@@ -54,7 +54,7 @@ li{
 }
 
 .paragraph_subtitle {
-  color: #C6CBD6;
+  color: #919AAE;
   font-size: 1.4em;
 }
 .paragraph_color {
@@ -73,6 +73,9 @@ li{
 }
 .margin_bottom30 {
   margin-bottom: 30px;
+}
+.margin_bottom60 {
+  margin-bottom: 60px;
 }
 .margin_top10{
   margin-top: 10px;
@@ -100,6 +103,10 @@ li{
 
 .title_h2 {
   font-size: 2.5em;
+}
+
+.paragraph_font {
+  font-size: 1em;
 }
 
 /* buttons */
@@ -261,7 +268,6 @@ li{
   }
 }
 
-
 /* main */
 
 /* section logos */
@@ -303,9 +309,34 @@ h4.logos_title {
   display: inline-block;
   width: 10px;
   height: 10px;
-  border: 1px solid black;
+  border: 1px solid #006AFF;
   border-radius: 50%;
 }
+.carousel_ball:first-child{
+  background-color: #006AFF;
+}
+
+.left_arrow, .right_arrow {
+  font-size: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.left_arrow {
+  left: -20px;
+  color: #6F7B97;
+}
+.right_arrow {
+  right: -20px;
+  color: #031C4E;
+}
+
+@media screen and (max-width: 750px) {
+
+  .left_arrow, .right_arrow {
+    font-size: 20px;
+  }
+}
+
 
 /* service */
 
