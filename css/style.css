@@ -307,7 +307,7 @@ h4.logos_title {
 @media screen and (max-width: 750px) {
 
   .stripe_logo{
-    max-width: 90%;
+    max-width: 200px;
     height: auto;
   }
 }
