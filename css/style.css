@@ -190,7 +190,6 @@ li{
   padding-left: 5%;
 }
 .menu_top a {
-  text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
   color: #031C4E;
@@ -405,7 +404,6 @@ h4.logos_title {
   margin: 4px;
 }
 .rockerbox_box a{
-  text-decoration: none;
   color: #0069ff;
 }
 .rockerbox_box a:hover{
@@ -453,5 +451,4 @@ h4.logos_title {
 }
 .footer_link a:hover{
   color: white;
-  text-decoration: none;
 }
