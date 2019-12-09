@@ -438,6 +438,9 @@ h4.logos_title {
 .footer_social i:hover{
   color: white;
 }
+.footer_link ul{
+  padding-left: 0;
+}
 .footer_link li{
   line-height: 2;
 }
